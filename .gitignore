@@ -1,0 +1,32 @@
+# Build output
+build/
+out/
+
+# CMake leftovers (if someone configures in-tree by mistake)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Compiled artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Editor / IDE
+.vscode/
+.idea/
+.cache/
+*.swp
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
